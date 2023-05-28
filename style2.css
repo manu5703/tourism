@@ -1,0 +1,98 @@
+@font-face{
+    font-family: 'Bebas';
+    src:url('BebasNeue-Regular.ttf')
+}
+@font-face{
+  font-family: 'Abel';
+  src:url(Abel-Regular.ttf)
+}
+
+
+
+div.main_v{
+    width:100%;
+    height:auto;
+    position: relative;
+    align-items: center;
+}
+div.main_t{
+  background-color:#4299ae;
+  position: absolute;
+  right: 60%;
+  top:90%;
+  width: 300px;
+  margin-left: 30rem;
+  padding: 5rem;
+
+}
+.main_t h1 , .goa_t h1{
+  font-family:"Bebas";
+  font-size: 2.5rem;
+  
+}
+.main_t p{
+  font-family: "Abel";
+  font-size: 1.5rem;
+}
+
+div.caption{
+    position:absolute;
+}
+div.navdec1 {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+
+  div.navdecchild {
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+  }
+/* GOA */
+.goa{
+  padding: 3rem;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-top: 19rem;
+}
+.caption{
+  font-family: "Bebas";
+  font-size:3rem;
+  text-align: center;
+}
+.goa_pic{
+  height:auto;
+}
+.goa_t{
+  width:500px;
+  background-color: white;
+  border: 3px solid #4299ae;
+}
+
+
+  a.navitems {
+    text-decoration: none;
+    color: #4299ae;
+    font-weight: 700;
+  }
+
+  a.navitems:hover {
+    color: black;
+    transition: color 300ms linear;
+  }
+
+  .caption h1{
+    font-family: 'Bebas';
+    color: white;
+    font-size: 3rem;
+
+  }
